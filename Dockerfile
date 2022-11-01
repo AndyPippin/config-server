@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-RUN apk add --no-cache tini
+RUN apk add --no-cache tini vim
 WORKDIR /usr/src/app
 
 # Update
